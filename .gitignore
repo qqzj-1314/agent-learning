@@ -1,0 +1,27 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Test, lint, and coverage caches
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local databases and editor settings
+*.db
+*.sqlite
+*.sqlite3
+.idea/
